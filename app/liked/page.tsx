@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React from 'react'
 import LikedContent from './components/LikedContent';
 
-export const revalidata = 0;
+export const revalidate = 0;
 
 const page = async () => {
     const songs = await getLikedSongs();
